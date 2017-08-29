@@ -38,11 +38,11 @@
 		05C06B65CDD557F1983E404567CAD83E /* GRCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRCalendar-dummy.m"; sourceTree = "<group>"; };
 		0AE8670491535B0A7B6EC43311E32F6E /* Pods-GRCalendar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRCalendar_Example-resources.sh"; sourceTree = "<group>"; };
 		0F17D56EF02B310795716B19F9C9EB22 /* Pods-GRCalendar_Example_macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRCalendar_Example_macOS-dummy.m"; sourceTree = "<group>"; };
-		2A2A465877897D6B17DA5DB5E85CBCA8 /* GRCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2A465877897D6B17DA5DB5E85CBCA8 /* GRCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GRCalendar.framework; path = GRCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8ED94E7EA18EDF8BA85F31ACA365F2 /* Pods-GRCalendar_Example_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRCalendar_Example_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		2E0276A80609AF33C9F02986781E4D95 /* Pods-GRCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
 		33DFDE70F8890A2EE841E061CD964FCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		394C4C5F233A1494D490A7D0FE389007 /* Pods-GRCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GRCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		394C4C5F233A1494D490A7D0FE389007 /* Pods-GRCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GRCalendar_Example.modulemap"; sourceTree = "<group>"; };
 		460012EF8ED65EB4250D9763982E510B /* GRCalendarDateProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GRCalendarDateProvider.swift; sourceTree = "<group>"; };
 		52F3E4FCFE27D5A181C630C18566776A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AF8844CAAFAE4C1A973ED9820D6DB4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,13 +53,13 @@
 		72D1001A85FB8C9D13203EEE15905B0D /* Pods-GRCalendar_Example_macOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRCalendar_Example_macOS-resources.sh"; sourceTree = "<group>"; };
 		73CF861C49E05609A6FAABCF17F98E5E /* Pods-GRCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A46ADE2677910CE2AFEAE66C7D0330D /* Pods-GRCalendar_Example_macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRCalendar_Example_macOS-umbrella.h"; sourceTree = "<group>"; };
-		81A1F5C6412FDEA57DC210F797CD86F7 /* Pods_GRCalendar_Example_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRCalendar_Example_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A1F5C6412FDEA57DC210F797CD86F7 /* Pods_GRCalendar_Example_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GRCalendar_Example_macOS.framework; path = "Pods-GRCalendar_Example_macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AE993A0F8AC9CB32C3F167220FF4B0 /* Pods-GRCalendar_Example_macOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRCalendar_Example_macOS-frameworks.sh"; sourceTree = "<group>"; };
 		86B2F7ED07422367F8A2863625FEE872 /* Pods-GRCalendar_Example_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRCalendar_Example_macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		895ED09F1F5865EF07BCF9A9637C7A6A /* Pods_GRCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		895ED09F1F5865EF07BCF9A9637C7A6A /* Pods_GRCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GRCalendar_Example.framework; path = "Pods-GRCalendar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BCC375B150DA21827F2A20238112CFD /* Pods-GRCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A6E70F96C374C4088580DF1BB6E03375 /* GRCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GRCalendar.modulemap; sourceTree = "<group>"; };
+		A6E70F96C374C4088580DF1BB6E03375 /* GRCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GRCalendar.modulemap; sourceTree = "<group>"; };
 		B0D44A2D71DD925B2401B2FD8B420737 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		B59B94C84652015816AFE4DF8D6A502E /* Pods-GRCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRCalendar_Example-dummy.m"; sourceTree = "<group>"; };
 		B698EBEEB96B6A84F8B2453DFA1F09A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		C4422BEB2A2488F7E2DA0FA48D5C3736 /* Pods-GRCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CF6E4A03D49946AB2C1350D079FFCAA9 /* Pods-GRCalendar_Example_macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRCalendar_Example_macOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		DB711DCAFF98C25F09852BEAD78ADE45 /* GRCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRCalendar-umbrella.h"; sourceTree = "<group>"; };
-		DCB9FB6D928D4A09B374731E27DEF7EE /* Pods-GRCalendar_Example_macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GRCalendar_Example_macOS.modulemap"; sourceTree = "<group>"; };
+		DCB9FB6D928D4A09B374731E27DEF7EE /* Pods-GRCalendar_Example_macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GRCalendar_Example_macOS.modulemap"; sourceTree = "<group>"; };
 		DD3D1BE6F105BF0BE70A954624F3F59E /* Pods-GRCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E7B80FA562F3F532FC8F5B3932AA8F7A /* Pods-GRCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB1D78672B70B95641E6C21A082C28B2 /* Pods-GRCalendar_Example_macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRCalendar_Example_macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -337,11 +337,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					FDE6C728F4792D96DB4F76747A682C1E = {
-						LastSwiftMigration = 0830;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
