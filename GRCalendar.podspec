@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GRCalendar'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A simple calendar view that allow to select date'
 
   s.homepage         = 'https://github.com/maciej-matuszewski/GRCalendar'
