@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'GRCalendar_Example' do
-  pod 'GRCalendar', :path => '../'
+  # pod 'GRCalendar', :path => '../'
 end
 
 target 'GRCalendar_Example_macOS' do

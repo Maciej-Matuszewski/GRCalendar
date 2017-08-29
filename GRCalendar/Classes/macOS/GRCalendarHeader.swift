@@ -9,7 +9,7 @@ import Cocoa
 
 class GRCalendarHeader: NSView {
     
-    private let monthLabel = NSTextField.init()
+    fileprivate let monthLabel = NSTextField.init()
 
     override init(frame frameRect: NSRect) {
         super.init(frame: frameRect)
@@ -20,7 +20,7 @@ class GRCalendarHeader: NSView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func configureLayout() {
+    fileprivate func configureLayout() {
         self.monthLabel.translatesAutoresizingMaskIntoConstraints = false
         self.monthLabel.stringValue = "kwiecień"
         self.monthLabel.font = NSFont.systemFont(ofSize: 30, weight: 5)
@@ -38,13 +38,13 @@ class GRCalendarHeader: NSView {
         
         let stackView = NSStackView.init(
             views: [
-                self.labelForLetter(letter: "M"),
-                self.labelForLetter(letter: "T"),
-                self.labelForLetter(letter: "W"),
-                self.labelForLetter(letter: "T"),
-                self.labelForLetter(letter: "F"),
-                self.labelForLetter(letter: "S"),
-                self.labelForLetter(letter: "S"),
+                self.labelForLetter("M"),
+                self.labelForLetter("T"),
+                self.labelForLetter("W"),
+                self.labelForLetter("T"),
+                self.labelForLetter("F"),
+                self.labelForLetter("S"),
+                self.labelForLetter("S"),
                 ]
         )
         
@@ -57,13 +57,13 @@ class GRCalendarHeader: NSView {
         stackView.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -16).isActive = true
     }
     
-    func configure(month: String, year: String){
+    func configure(_ month: String, year: String){
         let attributedString = NSMutableAttributedString.init(string: "\(month) ", attributes: [NSFontAttributeName : NSFont.systemFont(ofSize: 30, weight: 5)])
         attributedString.append(NSAttributedString.init(string: year, attributes: [NSFontAttributeName : NSFont.systemFont(ofSize: 30, weight: 0)]))
         self.monthLabel.attributedStringValue = attributedString
     }
     
-    private func labelForLetter(letter: String) -> NSTextField {
+    fileprivate func labelForLetter(_ letter: String) -> NSTextField {
         let textField = NSTextField.init(labelWithString: letter)
         textField.alignment = .center
         textField.textColor = NSColor.lightGray

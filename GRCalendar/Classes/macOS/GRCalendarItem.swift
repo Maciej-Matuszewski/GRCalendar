@@ -9,7 +9,7 @@ import Cocoa
 
 class GRCalendarItem: NSCollectionViewItem {
 
-    private let dateLabel = NSTextField.init()
+    fileprivate let dateLabel = NSTextField.init()
     
     override func loadView() {
         self.view = NSView.init()
@@ -21,7 +21,7 @@ class GRCalendarItem: NSCollectionViewItem {
         super.viewDidLoad()
     }
     
-    private func configureLayout() {
+    fileprivate func configureLayout() {
         
         self.view.wantsLayer = true
         self.view.layer?.cornerRadius = 20
@@ -51,10 +51,10 @@ class GRCalendarItem: NSCollectionViewItem {
             self.dateLabel.stringValue = ""
         }
         
-        configure(state: state)
+        configure(state)
     }
     
-    func configure(state: GRCalendarItemState) {
+    func configure(_ state: GRCalendarItemState) {
         switch state {
         case .outsideMonth:
             self.dateLabel.textColor = NSColor.lightGray

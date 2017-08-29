@@ -7,14 +7,14 @@
 
 import Cocoa
 
-public class GRCalendarView: NSView {
+open class GRCalendarView: NSView {
 
-    private let scrollView = NSScrollView.init()
-    private let collectionView = NSCollectionView.init()
+    fileprivate let scrollView = NSScrollView.init()
+    fileprivate let collectionView = NSCollectionView.init()
     fileprivate let dateProvider: GRCalendarDateProvider
-    public var delegate: GRCalendarViewDelegate?
+    open var delegate: GRCalendarViewDelegate?
     
-    private let overHeader = GRCalendarHeader.init(frame: NSRect.init(origin: CGPoint.zero, size: CGSize.init(width: 400, height: 80)))
+    fileprivate let overHeader = GRCalendarHeader.init(frame: NSRect.init(origin: CGPoint.zero, size: CGSize.init(width: 400, height: 80)))
     
     public init(startDate: Date, endDate: Date) {
         
@@ -31,7 +31,7 @@ public class GRCalendarView: NSView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func configureLayout() {
+    fileprivate func configureLayout() {
         
         self.widthAnchor.constraint(equalToConstant: 400).isActive = true
         self.heightAnchor.constraint(greaterThanOrEqualToConstant: 400).isActive = true
@@ -65,7 +65,7 @@ public class GRCalendarView: NSView {
         self.scrollView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         self.scrollView.widthAnchor.constraint(equalToConstant: 400).isActive = true
         
-        self.overHeader.configure(month: "", year: "")
+        self.overHeader.configure("", year: "")
         self.overHeader.wantsLayer = true
         self.overHeader.layer?.backgroundColor = NSColor.white.cgColor
         self.overHeader.translatesAutoresizingMaskIntoConstraints = false
@@ -77,7 +77,7 @@ public class GRCalendarView: NSView {
     }
     
     public func select(date: Date) {
-        let indexPath = self.dateProvider.indexPathFor(date: date)
+        let indexPath = self.dateProvider.indexPathFor(date)
         self.collectionView(collectionView, didSelectItemsAt: [indexPath])
         self.collectionView.selectionIndexPaths.insert(indexPath)
         self.collectionView.animator().scrollToItems(at: [indexPath], scrollPosition: NSCollectionViewScrollPosition.centeredVertically)
@@ -88,7 +88,7 @@ public class GRCalendarView: NSView {
         self.select(date: Date())
     }
     
-    override public func viewDidMoveToWindow() {
+    override open func viewDidMoveToWindow() {
         super.viewDidMoveToWindow()
         self.perform(#selector(self.showToday), with: nil, afterDelay: 0)
         self.perform(#selector(self.collectionViewDidScroll), with: nil, afterDelay: 0.1)
@@ -100,8 +100,8 @@ public class GRCalendarView: NSView {
         let section = y / sectionHeight
         let sizeInSection = y.truncatingRemainder(dividingBy: sectionHeight) / sectionHeight
         let indexPath = IndexPath.init(item: 0, section: Int(section))
-        let headerValues = self.dateProvider.valueForHeaderAt(indexPath: indexPath)
-        self.overHeader.configure(month: headerValues.month, year: headerValues.year)
+        let headerValues = self.dateProvider.valueForHeaderAt(indexPath)
+        self.overHeader.configure(headerValues.month, year: headerValues.year)
         self.overHeader.alphaValue = sizeInSection < 0.6 ? 1 : 4 - sizeInSection * 5
     }
     
@@ -119,13 +119,13 @@ extension GRCalendarView: NSCollectionViewDataSource {
     
     public func collectionView(_ collectionView: NSCollectionView, itemForRepresentedObjectAt indexPath: IndexPath) -> NSCollectionViewItem {
         let cell = collectionView.makeItem(withIdentifier: "item", for: indexPath) as! GRCalendarItem
-        let date = self.dateProvider.dateFor(indexPath: indexPath)
+        let date = self.dateProvider.dateFor(indexPath)
         
         let isSelected = collectionView.selectionIndexPaths.contains(indexPath)
         
         cell.configure(
             isSelected ? .selected : self.dateProvider.stateForItem(with: date, indexPath: indexPath),
-            dayOfMonth: self.dateProvider.dayOfMonthFor(date: date)
+            dayOfMonth: self.dateProvider.dayOfMonthFor(date)
         )
         
         return cell
@@ -133,8 +133,8 @@ extension GRCalendarView: NSCollectionViewDataSource {
     
     public func collectionView(_ collectionView: NSCollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> NSView {
         let header = collectionView.makeSupplementaryView(ofKind: NSCollectionElementKindSectionHeader, withIdentifier: "header", for: indexPath) as! GRCalendarHeader
-        let headerValues = self.dateProvider.valueForHeaderAt(indexPath: indexPath)
-        header.configure(month: headerValues.month, year: headerValues.year)
+        let headerValues = self.dateProvider.valueForHeaderAt(indexPath)
+        header.configure(headerValues.month, year: headerValues.year)
         return header
     }
 }
@@ -145,7 +145,7 @@ extension GRCalendarView: NSCollectionViewDelegate{
         let indexPath = indexPaths.first ?? IndexPath.init()
         
         guard
-            let date = self.dateProvider.dateFor(indexPath: indexPath)
+            let date = self.dateProvider.dateFor(indexPath)
         else{
             return
         }
@@ -159,7 +159,7 @@ extension GRCalendarView: NSCollectionViewDelegate{
         }
         
         let item = collectionView.item(at: indexPath) as? GRCalendarItem
-        item?.configure(state: .selected)
+        item?.configure(.selected)
         self.delegate?.calendarView(self, didSelectItemWith: date)
     }
     

@@ -9,10 +9,10 @@ import Foundation
 
 class GRCalendarDateProvider: NSObject {
     
-    private let calendar = Calendar.current
-    private let dateFormatter = DateFormatter.init()
-    private let startDate: Date
-    private let endDate: Date
+    fileprivate let calendar = Calendar.current
+    fileprivate let dateFormatter = DateFormatter.init()
+    fileprivate let startDate: Date
+    fileprivate let endDate: Date
     
     init(startDate: Date, endDate: Date) {
         
@@ -28,7 +28,7 @@ class GRCalendarDateProvider: NSObject {
         return monthsBetween
     }
     
-    func dateFor(indexPath: IndexPath) -> Date? {
+    func dateFor(_ indexPath: IndexPath) -> Date? {
         
         var components = self.calendar.dateComponents([Calendar.Component.year, Calendar.Component.month], from: self.startDate)
         components.month = indexPath.section + (components.month ?? 0)
@@ -49,7 +49,7 @@ class GRCalendarDateProvider: NSObject {
         
     }
     
-    func dayOfMonthFor(date: Date?) -> Int? {
+    func dayOfMonthFor(_ date: Date?) -> Int? {
         guard
             let date = date
         else {
@@ -91,7 +91,7 @@ class GRCalendarDateProvider: NSObject {
         return .weekday
     }
     
-    func valueForHeaderAt(indexPath: IndexPath) -> GRCalendarHeaderStruct {
+    func valueForHeaderAt(_ indexPath: IndexPath) -> GRCalendarHeaderStruct {
         
         var components = self.calendar.dateComponents([Calendar.Component.year, Calendar.Component.month], from: self.startDate)
         components.month = indexPath.section + (components.month ?? 0)
@@ -149,7 +149,7 @@ class GRCalendarDateProvider: NSObject {
         return GRCalendarHeaderStruct.init(month: month ?? "", year: year)
     }
     
-    func indexPathFor(date: Date) -> IndexPath {
+    func indexPathFor(_ date: Date) -> IndexPath {
         let section: Int = self.calendar.dateComponents([.month], from: self.startDate, to: self.calendar.startOfDay(for: date)).month!
         
         var startOfMonth: Date = Date()
