@@ -1,7 +1,7 @@
 {
   "name": "GRCalendar",
   "version": "0.1.0",
-  "summary": "A short description of GRCalendar.",
+  "summary": "A simple calendar view that allow to select date",
   "homepage": "https://github.com/maciej-matuszewski/GRCalendar",
   "license": {
     "type": "MIT",
@@ -15,14 +15,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.3",
     "osx": "10.12"
   },
   "source_files": "GRCalendar/Classes/Common/**/*",
-  "ios": {
-    "source_files": "GRCalendar/Classes/iOS/**/*",
-    "frameworks": "UIKit"
-  },
   "osx": {
     "source_files": "GRCalendar/Classes/macOS/**/*",
     "frameworks": "AppKit"

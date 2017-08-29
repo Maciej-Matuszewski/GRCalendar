@@ -1,6 +1,0 @@
-framework module GRCalendar {
-  umbrella header "GRCalendar-OSX-umbrella.h"
-
-  export *
-  module * { export * }
-}
