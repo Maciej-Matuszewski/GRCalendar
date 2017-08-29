@@ -1,0 +1,6 @@
+framework module GRCalendar {
+  umbrella header "GRCalendar-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

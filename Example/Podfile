@@ -2,10 +2,8 @@ use_frameworks!
 
 target 'GRCalendar_Example' do
   pod 'GRCalendar', :path => '../'
+end
 
-  target 'GRCalendar_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target 'GRCalendar_Example_macOS' do
+  pod 'GRCalendar', :path => '../'
 end

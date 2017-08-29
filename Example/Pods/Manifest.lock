@@ -1,0 +1,16 @@
+PODS:
+  - GRCalendar (0.1.0)
+
+DEPENDENCIES:
+  - GRCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  GRCalendar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GRCalendar: 896c44b258cb9d3b9ebd79f2564b39fd29341eb7
+
+PODFILE CHECKSUM: 35562fc18dd8bcd647034120d35ac0c80c89078c
+
+COCOAPODS: 1.2.1

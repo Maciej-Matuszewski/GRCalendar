@@ -1,0 +1,30 @@
+{
+  "name": "GRCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of GRCalendar.",
+  "homepage": "https://github.com/maciej-matuszewski/GRCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gr3mlin106": "maciej.matuszewski@me.com"
+  },
+  "source": {
+    "git": "https://github.com/maciej-matuszewski/GRCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.3",
+    "osx": "10.12"
+  },
+  "source_files": "GRCalendar/Classes/Common/**/*",
+  "ios": {
+    "source_files": "GRCalendar/Classes/iOS/**/*",
+    "frameworks": "UIKit"
+  },
+  "osx": {
+    "source_files": "GRCalendar/Classes/macOS/**/*",
+    "frameworks": "AppKit"
+  }
+}
