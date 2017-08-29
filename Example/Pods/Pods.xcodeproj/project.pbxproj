@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09B2EF4F26B58DA143C99D25418E77B1 /* GRCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9982FF6AF4B24228E2D7A67A48CDB8B4 /* GRCalendar-dummy.m */; };
+		09B2EF4F26B58DA143C99D25418E77B1 /* GRCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C06B65CDD557F1983E404567CAD83E /* GRCalendar-dummy.m */; };
 		1D3DF9331076C5F0BB5B801E43689221 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E899B67B9008D6E5D9F5B31BBC55EC9 /* Cocoa.framework */; };
 		27B09FD8C88BC76635A8F4D28386DB8A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591035820D600E2A53AE10411B6105D0 /* AppKit.framework */; };
-		2D2FA31900BDD6B2E41E621B1FC2E380 /* GRCalendarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D20F10A8AACAB4C60C8B30531F905 /* GRCalendarItem.swift */; };
+		2D2FA31900BDD6B2E41E621B1FC2E380 /* GRCalendarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9D56354417361186734135A1507CB /* GRCalendarItem.swift */; };
 		4F4EBB602325971CA0281B4F92B97310 /* Pods-GRCalendar_Example_macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 543F0E451B0F8E0F1380C28773A5C20C /* Pods-GRCalendar_Example_macOS-dummy.m */; };
-		5677E9B24B6056EB6A669539D510EE32 /* GRCalendarDateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5256849C0580DD0C972F1B7A221F31 /* GRCalendarDateProvider.swift */; };
+		5677E9B24B6056EB6A669539D510EE32 /* GRCalendarDateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460012EF8ED65EB4250D9763982E510B /* GRCalendarDateProvider.swift */; };
 		71748F8F5B305C44EBE7305BDFE1A806 /* Pods-GRCalendar_Example_macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DCD3F3400B75458EFEAAADB33AE557 /* Pods-GRCalendar_Example_macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7855292D660899CDB438ACAE065C4A90 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E899B67B9008D6E5D9F5B31BBC55EC9 /* Cocoa.framework */; };
-		84A9883D4BBA8A1EF22B5BD505806DE5 /* GRCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 804F80DA024C9C85914BFFE4DD75A1F3 /* GRCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F0EDFD85664AB7CC97BD014ACDD7A4A /* GRCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BC9FE20CE879B83E3FEBA0DEA085B2 /* GRCalendarView.swift */; };
-		A90C32E17A133AB20385797CC4951E9F /* GRCalendarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C6741C85E534C93A8B133956F5D7C3 /* GRCalendarHeader.swift */; };
+		84A9883D4BBA8A1EF22B5BD505806DE5 /* GRCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB711DCAFF98C25F09852BEAD78ADE45 /* GRCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0EDFD85664AB7CC97BD014ACDD7A4A /* GRCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F7E990201A19A292872FA611145ED6 /* GRCalendarView.swift */; };
+		A90C32E17A133AB20385797CC4951E9F /* GRCalendarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66608B9CE0EEAC1E0CDADF991EACE6C1 /* GRCalendarHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,31 +31,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04D3F0DF23B8D650D8E7C9018BA6E1BE /* GRCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRCalendar.xcconfig; sourceTree = "<group>"; };
+		02C9D56354417361186734135A1507CB /* GRCalendarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GRCalendarItem.swift; sourceTree = "<group>"; };
+		05C06B65CDD557F1983E404567CAD83E /* GRCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRCalendar-dummy.m"; sourceTree = "<group>"; };
 		12104A98BDE97A0A9009422C5C581148 /* Pods-GRCalendar_Example_macOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRCalendar_Example_macOS-resources.sh"; sourceTree = "<group>"; };
 		14ED46E4AC8257447366B8DEC404F581 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E899B67B9008D6E5D9F5B31BBC55EC9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		2549CD650ABBE1056BA710C343BA374F /* Pods-GRCalendar_Example_macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GRCalendar_Example_macOS.modulemap"; sourceTree = "<group>"; };
-		25849D925AE2DA6576A08F7D9107684D /* GRCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GRCalendar.modulemap; sourceTree = "<group>"; };
-		44C6741C85E534C93A8B133956F5D7C3 /* GRCalendarHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GRCalendarHeader.swift; sourceTree = "<group>"; };
-		45C265D41EBE82944AFCACFCCE31DC04 /* GRCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRCalendar-prefix.pch"; sourceTree = "<group>"; };
-		46BC9FE20CE879B83E3FEBA0DEA085B2 /* GRCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GRCalendarView.swift; sourceTree = "<group>"; };
+		460012EF8ED65EB4250D9763982E510B /* GRCalendarDateProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GRCalendarDateProvider.swift; sourceTree = "<group>"; };
 		488D353DBBDC90A102CA105CC5E3999E /* Pods-GRCalendar_Example_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRCalendar_Example_macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		543F0E451B0F8E0F1380C28773A5C20C /* Pods-GRCalendar_Example_macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRCalendar_Example_macOS-dummy.m"; sourceTree = "<group>"; };
 		591035820D600E2A53AE10411B6105D0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		64C4638A171C633E95C13DB1156FA900 /* Pods-GRCalendar_Example_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRCalendar_Example_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		65F7E990201A19A292872FA611145ED6 /* GRCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GRCalendarView.swift; sourceTree = "<group>"; };
+		66608B9CE0EEAC1E0CDADF991EACE6C1 /* GRCalendarHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GRCalendarHeader.swift; sourceTree = "<group>"; };
+		6E9649A740760773F6DD7386C83BD05A /* GRCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRCalendar-prefix.pch"; sourceTree = "<group>"; };
 		7E29664ECB8E652E5CFE87187AF66A8C /* Pods-GRCalendar_Example_macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRCalendar_Example_macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		804F80DA024C9C85914BFFE4DD75A1F3 /* GRCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRCalendar-umbrella.h"; sourceTree = "<group>"; };
 		881B72FCE0A7F256C63F67ED4FAC0178 /* Pods-GRCalendar_Example_macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRCalendar_Example_macOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A5D20F10A8AACAB4C60C8B30531F905 /* GRCalendarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GRCalendarItem.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9982FF6AF4B24228E2D7A67A48CDB8B4 /* GRCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRCalendar-dummy.m"; sourceTree = "<group>"; };
+		A6E70F96C374C4088580DF1BB6E03375 /* GRCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GRCalendar.modulemap; sourceTree = "<group>"; };
 		B082AF92D4672DBA7A7ACB1246338F97 /* Pods-GRCalendar_Example_macOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRCalendar_Example_macOS-frameworks.sh"; sourceTree = "<group>"; };
+		B698EBEEB96B6A84F8B2453DFA1F09A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8143594A4711FB25C6A13188F04F276 /* GRCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRCalendar.xcconfig; sourceTree = "<group>"; };
 		C5B733D9CBC154AA27C8E37F29E48042 /* Pods_GRCalendar_Example_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GRCalendar_Example_macOS.framework; path = "Pods-GRCalendar_Example_macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5CAD7039BB1CA4627038BCAC104D999 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5DCD3F3400B75458EFEAAADB33AE557 /* Pods-GRCalendar_Example_macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRCalendar_Example_macOS-umbrella.h"; sourceTree = "<group>"; };
+		DB711DCAFF98C25F09852BEAD78ADE45 /* GRCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRCalendar-umbrella.h"; sourceTree = "<group>"; };
 		EE183A57D09BC7D59854FC856E22E31A /* GRCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GRCalendar.framework; path = GRCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF5256849C0580DD0C972F1B7A221F31 /* GRCalendarDateProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GRCalendarDateProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,14 +79,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		161BD40C789D7C3CB0BFC6346020DB35 /* Classes */ = {
+		02DDC3D9B920BA67D6836EBF7523A342 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB2102402B316BA6458EAB639B85ACCE /* Common */,
-				EB721E91E51F064DD5C5DCB692928EC7 /* macOS */,
+				A6E70F96C374C4088580DF1BB6E03375 /* GRCalendar.modulemap */,
+				B8143594A4711FB25C6A13188F04F276 /* GRCalendar.xcconfig */,
+				05C06B65CDD557F1983E404567CAD83E /* GRCalendar-dummy.m */,
+				6E9649A740760773F6DD7386C83BD05A /* GRCalendar-prefix.pch */,
+				DB711DCAFF98C25F09852BEAD78ADE45 /* GRCalendar-umbrella.h */,
+				B698EBEEB96B6A84F8B2453DFA1F09A7 /* Info.plist */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GRCalendar";
 			sourceTree = "<group>";
 		};
 		1C671BDB9071CD295859FD6CFB915A40 /* OS X */ = {
@@ -98,6 +102,25 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
+		350F0ECAB584462FB7429C3B650D628F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8307C0BAEF68DFE7A1EBFBFF9AD0618B /* GRCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		641DE9D595D7AE533B43BCF407CDD770 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				66608B9CE0EEAC1E0CDADF991EACE6C1 /* GRCalendarHeader.swift */,
+				02C9D56354417361186734135A1507CB /* GRCalendarItem.swift */,
+				65F7E990201A19A292872FA611145ED6 /* GRCalendarView.swift */,
+			);
+			name = macOS;
+			path = GRCalendar/Classes/macOS;
+			sourceTree = "<group>";
+		};
 		7A690D484D16F1C7A402F4A4997F19DB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +129,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7ACE8156BD93A927645C61BE1E0BFBE9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				460012EF8ED65EB4250D9763982E510B /* GRCalendarDateProvider.swift */,
+			);
+			name = Common;
+			path = GRCalendar/Classes/Common;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D1C4111B151827B72AB1482AF8ECD5A0 /* Development Pods */,
+				350F0ECAB584462FB7429C3B650D628F /* Development Pods */,
 				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
 				9EFD59F3987464B1962634A3C76114D0 /* Products */,
 				7A690D484D16F1C7A402F4A4997F19DB /* Targets Support Files */,
@@ -135,13 +167,15 @@
 			path = "Target Support Files/Pods-GRCalendar_Example_macOS";
 			sourceTree = "<group>";
 		};
-		945BD863D814C706F8F0331E3C1DA1F3 /* GRCalendar */ = {
+		8307C0BAEF68DFE7A1EBFBFF9AD0618B /* GRCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				161BD40C789D7C3CB0BFC6346020DB35 /* Classes */,
+				7ACE8156BD93A927645C61BE1E0BFBE9 /* Common */,
+				641DE9D595D7AE533B43BCF407CDD770 /* macOS */,
+				02DDC3D9B920BA67D6836EBF7523A342 /* Support Files */,
 			);
 			name = GRCalendar;
-			path = GRCalendar;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9EFD59F3987464B1962634A3C76114D0 /* Products */ = {
@@ -153,64 +187,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC8979D470161611886A7D37B14D8E56 /* GRCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				945BD863D814C706F8F0331E3C1DA1F3 /* GRCalendar */,
-				D1B6A444B6B273B6F1BBBDD15C792B62 /* Support Files */,
-			);
-			name = GRCalendar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		D1B6A444B6B273B6F1BBBDD15C792B62 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				25849D925AE2DA6576A08F7D9107684D /* GRCalendar.modulemap */,
-				04D3F0DF23B8D650D8E7C9018BA6E1BE /* GRCalendar.xcconfig */,
-				9982FF6AF4B24228E2D7A67A48CDB8B4 /* GRCalendar-dummy.m */,
-				45C265D41EBE82944AFCACFCCE31DC04 /* GRCalendar-prefix.pch */,
-				804F80DA024C9C85914BFFE4DD75A1F3 /* GRCalendar-umbrella.h */,
-				C5CAD7039BB1CA4627038BCAC104D999 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GRCalendar";
-			sourceTree = "<group>";
-		};
-		D1C4111B151827B72AB1482AF8ECD5A0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AC8979D470161611886A7D37B14D8E56 /* GRCalendar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				1C671BDB9071CD295859FD6CFB915A40 /* OS X */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EB2102402B316BA6458EAB639B85ACCE /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				EF5256849C0580DD0C972F1B7A221F31 /* GRCalendarDateProvider.swift */,
-			);
-			name = Common;
-			path = Common;
-			sourceTree = "<group>";
-		};
-		EB721E91E51F064DD5C5DCB692928EC7 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				44C6741C85E534C93A8B133956F5D7C3 /* GRCalendarHeader.swift */,
-				8A5D20F10A8AACAB4C60C8B30531F905 /* GRCalendarItem.swift */,
-				46BC9FE20CE879B83E3FEBA0DEA085B2 /* GRCalendarView.swift */,
-			);
-			name = macOS;
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,7 +312,119 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		337AD37B27D7FFADF01DD8D7FE35B27B /* Debug */ = {
+		675EDCAB8771F3AD3BC58B320255448A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8143594A4711FB25C6A13188F04F276 /* GRCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRCalendar/GRCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/GRCalendar/GRCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GRCalendar;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67EBF64756E627D785895AF6FD8B4D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8143594A4711FB25C6A13188F04F276 /* GRCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRCalendar/GRCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/GRCalendar/GRCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GRCalendar;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89039E0F50020A3216A4355378A5F2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488D353DBBDC90A102CA105CC5E3999E /* Pods-GRCalendar_Example_macOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRCalendar_Example_macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRCalendar_Example_macOS/Pods-GRCalendar_Example_macOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRCalendar_Example_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,118 +468,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		627FC8396B0FCEFCD1E620C09D5CEB8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04D3F0DF23B8D650D8E7C9018BA6E1BE /* GRCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GRCalendar/GRCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GRCalendar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/GRCalendar/GRCalendar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GRCalendar;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6C0E35F9EB98A57883F4132860DC823B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04D3F0DF23B8D650D8E7C9018BA6E1BE /* GRCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GRCalendar/GRCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GRCalendar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/GRCalendar/GRCalendar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GRCalendar;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		89039E0F50020A3216A4355378A5F2D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 488D353DBBDC90A102CA105CC5E3999E /* Pods-GRCalendar_Example_macOS.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GRCalendar_Example_macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-GRCalendar_Example_macOS/Pods-GRCalendar_Example_macOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GRCalendar_Example_macOS;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -587,7 +571,7 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				337AD37B27D7FFADF01DD8D7FE35B27B /* Debug */,
+				C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */,
 				FC4738C3605827B2CD972C349A860865 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -596,8 +580,8 @@
 		C3742C81D6271F2621ED8CF42D9784E8 /* Build configuration list for PBXNativeTarget "GRCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				627FC8396B0FCEFCD1E620C09D5CEB8B /* Debug */,
-				6C0E35F9EB98A57883F4132860DC823B /* Release */,
+				67EBF64756E627D785895AF6FD8B4D6E /* Debug */,
+				675EDCAB8771F3AD3BC58B320255448A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
